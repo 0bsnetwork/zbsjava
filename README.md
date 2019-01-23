@@ -38,7 +38,7 @@ String address = account.getAddress();
 
 Create a Node and learn a few things about blockchain:
 ```
-Node node = new Node("https://nodes.dev-zbsnetwork.com/", Account.MAINNET);
+Node node = new Node("https://nodes.test-0network.com/", Account.TESTNET);
 System.out.println("Current height is " + node.getHeight());
 System.out.println("My balance is " + node.getBalance(address));
 System.out.println("With 100 confirmations: " + node.getBalance(address, 100));
