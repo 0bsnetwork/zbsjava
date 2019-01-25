@@ -32,7 +32,7 @@ import java.nio.ByteBuffer;
 import java.util.*;
 
 public class Node {
-    private static final String DEFAULT_NODE = "https://nodes.dev-0bsnetwork.com";
+    private static final String DEFAULT_NODE = "https://nodes.testnet-0bsnetwork.com";
 
     private static final TypeReference<OrderBook> ORDER_BOOK = new TypeReference<OrderBook>() {
     };

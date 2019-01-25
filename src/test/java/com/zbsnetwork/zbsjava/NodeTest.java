@@ -239,7 +239,7 @@ public class NodeTest {
     public void testAliasGet() throws IOException, URISyntaxException {
         String addr = "3PA1KvFfq9VuJjg45p2ytGgaNjrgnLSgf4r";
         String alias = "blackturtle";
-        Node node = new Node("https://nodes.dev-0bsnetwork.com", 'Z');
+        Node node = new Node("https://nodes.testnet-0bsnetwork.com", 'Z');
         assertEquals(node.getAddrByAlias(alias), addr);
     }
 }

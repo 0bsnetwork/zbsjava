@@ -21,12 +21,12 @@ public class SpreadBot {
         return new SpreadBot(
                 PrivateKeyAccount.fromPrivateKey("25Um7fKYkySZnweUEVAn9RLtxN5xHRd7iqpqYSMNQEeT", Account.TESTNET),
                 new AssetPair(Asset.ZBS, "Fmg13HEHJHuZYbtJq8Da8wifJENq8uBxDuWoP9pVe2Qe"),
-                "https://nodes.dev-0bsnetwork.com",
-                "https://nodes.dev-0bsnetwork.com",  'T');
+                "https://nodes.testnet-0bsnetwork.com",
+                "https://nodes.testnet-0bsnetwork.com",  'T');
     }
 
     public static SpreadBot mainnetInstance() throws IOException, URISyntaxException {
-        String nodeUrl = "http://nodes.dev-0bsnetwork.com";
+        String nodeUrl = "http://nodes.testnet-0bsnetwork.com";
         return new SpreadBot(
                 PrivateKeyAccount.fromSeed(
                         "abandon ability able about above absent absorb abstract absurd abuse access accident account accuse achieve",

@@ -38,7 +38,7 @@ String address = account.getAddress();
 
 Create a Node and learn a few things about blockchain:
 ```
-Node node = new Node("https://nodes.test-0network.com/", Account.TESTNET);
+Node node = new Node("https://nodes.testnet-0bsnetwork.com/", Account.TESTNET);
 System.out.println("Current height is " + node.getHeight());
 System.out.println("My balance is " + node.getBalance(address));
 System.out.println("With 100 confirmations: " + node.getBalance(address, 100));
@@ -69,7 +69,7 @@ node.send(tx);
 
 Create a DEX order:
 ```
-Node matcher = new Node("https://nodes.dev-zbsnetwork.com", Account.MAINNNET);
+Node matcher = new Node("https://nodes.testnet-0bsnetwork.com", Account.MAINNNET);
 String matcherKey = matcher.getMatcherKey();
 String zbtcId = "Fmg13HEHJHuZYbtJq8Da8wifJENq8uBxDuWoP9pVe2Qe";
 Order order = matcher.createOrder(alice, matcherKey,

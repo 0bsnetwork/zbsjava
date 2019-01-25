@@ -24,7 +24,7 @@ public class SendAssetExample {
         // and its address
         String address = alice.getAddress();
 
-        // Create a Node ("https://nodes.dev-0bsnetwork.com" by default, or you can pass another URL here)
+        // Create a Node ("https://nodes.testnet-0bsnetwork.com" by default, or you can pass another URL here)
         Node node = new Node();
 
         // Get blockchain height

@@ -26,7 +26,7 @@ public class NodeExample {
         // and its address
         String address = alice.getAddress();
 
-        // Create a Node ("https://nodes.dev-0bsnetwork.com" by default, or you can pass another URL here)
+        // Create a Node ("https://nodes.testnet-0bsnetwork.com" by default, or you can pass another URL here)
         Node node = new Node();
 
         // Get blockchain height
@@ -81,7 +81,7 @@ public class NodeExample {
 
         // Matcher interaction
         //
-        Node matcher = new Node("https://nodes.dev-0bsnetwork.com", 'Z');
+        Node matcher = new Node("https://nodes.testnet-0bsnetwork.com", 'Z');
         String matcherKey = matcher.getMatcherKey();
 
         // Create an order
